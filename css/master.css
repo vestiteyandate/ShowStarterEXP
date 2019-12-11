@@ -1,0 +1,274 @@
+h1{
+  font-family: Montserrat;
+  font-size: 2em;
+  line-height:1.25em;
+}
+
+h2{
+  font-family: Montserrat;
+  font-size: 1.625em;
+  line-height: 1.15384615em;
+}
+
+h3{
+  font-family: Montserrat;
+  font-size: 1.375em;
+  line-height: 1.13636364em;
+}
+
+h4{
+  font-family: Nunito sans;
+  font-size: 1.125em;
+  line-height:	1.11111111em;
+}
+
+p{
+  font-family: Nunito sans;
+}
+
+body{
+  font-family: 'Nunito Sans','Montserrat', sans-serif;
+  display: block;
+}
+
+header{
+  height: 100vh;
+  background-image: url("../img/SHO-static.png");
+  background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.blanco{
+  color: white;
+}
+
+.fit{
+  width: 100%;
+  height: 100%;
+}
+
+.footerMobile{
+  background-color: #f2f2f2;
+  height: 6vh;
+  border-top: : 1px grey solid;
+  border-bottom: : 1px grey solid;
+  text-align: center;
+}
+
+.footerDesktop{
+  display: none;
+}
+
+.imgPedidos{
+  width: 100%
+}
+
+.navDesktop{
+  display: none;
+}
+
+
+.queEsDesktop{
+display: none;
+}
+
+.bloquePedidos{
+  background-color: #f2f2f2;
+  padding: 2%;
+  box-shadow: 10px 10px 9px -4px rgba(0,0,0,0.28);
+  box-sizing: border-box;
+  width: 45%;
+  margin: auto;
+  margin-bottom: 3vh;
+}
+
+
+.pedidosMobile{
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  background-color: #56b0a2;
+  float: left;
+  margin-bottom:6vh;
+}
+
+.pedidosDesktop{
+  display: none;
+}
+
+.eventosMobile{
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  background-color: #5197b1;
+  float: left;
+}
+
+.eventosDesktop{
+  display: none;
+}
+
+.bloqueEventos{
+  background-color: #f2f2f2;
+  padding: 2%;
+  box-shadow: 10px 10px 9px -4px rgba(0,0,0,0.28);
+  box-sizing: border-box;
+  margin: 3%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.imagenShow{
+  width: 100%;
+  background-color: red;
+  padding: 0px;
+}
+
+section.compartir{
+  height: 100%;
+}
+
+section.compartir ul{
+  height: 100%;
+  text-align: center;
+  margin: 0px;
+}
+
+section.compartir li{
+  height: 32.77%;
+  vertical-align: middle;
+  box-sizing:content-box;
+  line-height: 1;
+}
+ section.botoneraEventos li{
+   display: inline;
+   border: 1px black solid;
+   width: 33.3%;
+   justify-content: center;
+ }
+
+ .iconosFooter{
+   height: 6vh;
+   justify-content: space-between;
+   align-items: center;
+
+ }
+
+.noPadding{
+  padding: 0px;
+}
+
+ .botonesEventos{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ #logoHome{
+  width: 100%;
+  height:100vh;
+  margin: auto;
+  vertical-align: middle;
+  color: white;
+  text-align: center;
+ }
+
+ .separador{
+   border: 1px #5197b1 solid;
+ }
+
+ /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+  }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1100px) {
+
+.eventosMobile{
+  display: none;
+}
+
+.eventosDesktop{
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  background-color: #56b0a2;
+  float: left;
+  display: block;
+}
+
+.footerDesktop{
+  background-color: black;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.footerMobile{
+  display: none;
+}
+.pedidosDesktop{
+  display: block;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  background-color: #5197b1;
+  float: left;
+}
+
+.pedidosMobile{
+  display: none;
+}
+
+.navDesktop{
+  display: block;
+  background-color: black;
+  height: 5vh;
+}
+
+#logoHome{
+ width: 100%;
+ height:95vh;
+ margin-top: 5vh;
+ vertical-align: middle;
+ color: white;
+ text-align: center;
+}
+
+.queEsDesktop{
+  color: white;
+  background-color: #5197b1;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  float: left;
+  display: block;
+}
+
+.instrucciones{
+  width: 75%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+}
