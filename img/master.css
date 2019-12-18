@@ -1,0 +1,293 @@
+
+/* AZUL #5197b1
+  VERDE #56b0a2
+  GRIS #f2f2f2 */
+
+/* ------------------ ESTILOS TIPOGRÁFICOS ---------------*/
+
+h1{
+  font-family: Montserrat
+  font-size: 15.5vh;
+}
+
+h2{
+  font-family: Montserrat;
+  font-size: 2rem;
+}
+
+h3{
+    font-family: Nunito sans;
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+h4{
+    font-family: Nunito Sans;
+    font-size: 1.5rem;
+}
+
+h5{
+  font-family: Nunito Sans;
+  font-size: 1.25rem;
+}
+
+p{
+  font-family: Nunito Sans;
+  font-size: 1rem;
+}
+
+body{
+  font-family: 'Nunito Sans', 'Montserrat'sans-serif;
+}
+
+.body{
+  display: flex;
+}
+#principal{
+  background-image: url('../imagenes/SHO-static.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  color:white;
+  height: 100vh;
+  text-align: center;
+  margin: auto;
+
+}
+
+#queEs{
+  width: 65%;
+  color: white;
+  font-family: Nunito Sans;
+  padding-bottom: 20px;
+}
+
+#showsImpulsados{
+    background-color: #f2f2f2;
+    overflow: hidden;
+    color: #5197b1;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+}
+
+#masPedidos{
+    background-color: #56b0a2;
+    padding-top: 5%;
+    padding-bottom: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+
+}
+
+#pedidos{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+}
+
+#requests{
+    width: 100%;
+}
+
+#footer{
+  background-color: black;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.showRequest{
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.prueba{
+  background-color: red;
+  border: 9px black solid;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.boxEvento{
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin:auto;
+  display: flex;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.botonesBoxEvento{
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  justify-content:space-between;
+  font-weight: 100;
+
+}
+
+#logoHome{
+  width: 35%;
+  vertical-align: center;
+}
+.logo{
+  text-align: center;
+  padding-left: 70px 0;
+}
+
+.separador{
+  border: 1px #5197b1 solid;
+}
+
+
+.instrucciones{
+  padding: 10px;
+}
+
+.azul{
+    background-color: #5197b1;
+}
+
+.footerNav{
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.ocultar{
+  display: none;
+}
+
+#carouselShows{
+  width: 80%;
+  margin: auto;
+  background-image: url('imagenes/SHO-static.png');
+}
+
+.showsMobile{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.showsDesktop{
+  display: none;
+}
+
+.avatar{
+    border-radius: 90px;
+    float:right;
+    z-index: 2;
+    width: 150px;
+    align-self: flex-end;
+    margin-top: -10vh;
+    margin-right: 10%;
+}
+.coverUsuario{
+  object-fit: cover;
+  height: 30vh;
+}
+.titulos{
+  display: none;
+}
+
+#login{
+  background: linear-gradient(0deg, rgba(83,140,170,1) 0%, rgba(81,151,177,1) 32%, rgba(86,176,162,1) 60%, rgba(237,224,91,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logoLogin{
+  width: 10%;
+  height: 10%;
+  margin: auto;
+  margin-top: 20%;
+  display: block;
+
+}
+
+#contenedorLogin{
+  color: white;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+#loginHijo{
+  width: 50%;
+  margin:auto;
+}
+
+.botones{
+  border-radius: 25px;
+  background-color: white;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.botonCasero{
+  background-color: white;
+  border: white, 2px, solid;
+  color: #5197b1;
+  width: 40%;
+  align-items: center;
+  text-align: center;
+}
+
+/* ------------------ MEDIA QUERIES---------------*/
+
+@include media-breakpoint-up(md) {
+
+.showsDesktop{
+  display: flex;
+}
+#queEs{
+  height: 100vh;
+}
+.titulos{
+  display: block;
+}
+
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 881px) {
+
+.showsMobile{
+  display: none;
+}
+.showsDesktop{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+#queEs{
+  height: 100vh;
+}
+.titulos{
+  display: block;
+}
+
+#contenedorLogin{
+  color: white;
+  height: 100vh;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10vh;
+
+}

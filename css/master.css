@@ -29,6 +29,9 @@ p{
 body{
   font-family: 'Nunito Sans','Montserrat', sans-serif;
   display: block;
+  max-width: 1200px;
+  margin: auto;
+  background:linear-gradient(0deg, rgba(83,140,170,1) 0%, rgba(81,151,177,1) 32%, rgba(86,176,162,1) 60%, rgba(237,224,91,1) 100%);
 }
 
 header{
@@ -49,6 +52,11 @@ header{
 .fit{
   width: 100%;
   height: 100%;
+}
+
+.dieciseiesNueve{
+  width: 100%;
+  height: 56.25%;
 }
 
 .footerMobile{
@@ -189,6 +197,10 @@ section.compartir li{
 
  .separador{
    border: 1px #5197b1 solid;
+ }
+
+ #eventos{
+   background-color: #f2f2f2;
  }
 
  /* Medium devices (landscape tablets, 768px and up) */

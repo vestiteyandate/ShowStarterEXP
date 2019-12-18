@@ -61,14 +61,39 @@ overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.headerDesktop{
+  display: none;
+}
+
+.show{
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.separador{
+     border: 1px #5197b1 solid;
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
+  .headerDesktop{
+    display: block;
+    margin: auto;
+    max-width: 1200px;
+  }
+
+  .encabezadoMobile{
+    display: none;
+  }
 
  }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1100px) {
+
+
 
 }
