@@ -71,6 +71,10 @@ header{
   display: none;
 }
 
+.headerDesktop{
+  display: none;
+}
+
 .imgPedidos{
   width: 100%
 }
@@ -281,6 +285,10 @@ section.compartir li{
   width: 75%;
   padding-top: 3%;
   padding-bottom: 3%;
+}
+
+.headerDesktop{
+  display: block;
 }
 
 }
