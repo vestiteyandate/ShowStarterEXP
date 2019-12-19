@@ -31,7 +31,8 @@ body{
   display: block;
   max-width: 1200px;
   margin: auto;
-  background:linear-gradient(0deg, rgba(83,140,170,1) 0%, rgba(81,151,177,1) 32%, rgba(86,176,162,1) 60%, rgba(237,224,91,1) 100%);
+  background-color: #DCEDFF;
+  /* background:linear-gradient(0deg, rgba(83,140,170,1) 0%, rgba(81,151,177,1) 32%, rgba(86,176,162,1) 60%, rgba(237,224,91,1) 100%); */
 }
 
 header{
@@ -51,7 +52,6 @@ header{
 
 .fit{
   width: 100%;
-  height: 100%;
 }
 
 .dieciseiesNueve{
@@ -236,6 +236,7 @@ section.compartir li{
   padding-top: 60px;
   padding-bottom: 20px;
   display: block;
+  margin: 0;
 }
 
 .footerMobile{
