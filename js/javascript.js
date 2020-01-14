@@ -1,7 +1,7 @@
 
 var info ;
 
-fetch('https://api.jsonbin.io/b/5df4fc9f2c714135cda13775/4')
+fetch('https://api.jsonbin.io/b/5df4fc9f2c714135cda13775/3')
 
   .then(evento => {
     return evento.json()
@@ -79,55 +79,65 @@ fetch('https://api.jsonbin.io/b/5df4fc9f2c714135cda13775/4')
   })
 });
 
-fetch('https://api.jsonbin.io/b/5df4fc9f2c714135cda13775/4')
-
-  .then(evento => {
-    return evento.json()
-  })
-
-  .then(data => {
-     //Work with JSON data here
-     // if(element.id = 000001){
-    data.forEach(evento => {
-
-    const appp = document.getElementById('eventoPrincipal');
-
-    const mainContainer = document.createElement('div');
-    mainContainer.setAttribute('class','encabezadoMobile');
-
-    const banner = document.createElement('div');
-    banner.setAttribute('class','todosMobileMain');
-
-    const imgBanner = document.createElement('img');
-    imgBanner.src = evento.img_banner;
-    imgBanner.setAttribute('class', 'fit');
-
-    const containerInfo = document.createElement('div');
-    containerInfo.setAttribute('class', 'row');
-
-    const containerTitulo = document.createElement('div');
-    containerTitulo.setAttribute('class','col-12');
-
-    const textoTitulo = document.createElement('h2');
-    textoTitulo.textContent = evento.Titulo;
-
-    const textoDescripcion = document.createElement('p');
-    textoDescripcion.textContent = evento.descripcion;
-
-
-
-    appp.appendChild(mainContainer);
-    mainContainer.appendChild(banner);
-    banner.appendChild(imgBanner);
-    mainContainer.appendChild(containerInfo);
-    containerInfo.appendChild(containerTitulo);
-    containerTitulo.appendChild(textoTitulo);
-    containerTitulo.appendChild(textoDescripcion);
-
-})
-})
-
-  .catch(err => {
-    console.log('and I oop. '+err);
-
-  })
+// fetch('https://api.jsonbin.io/b/5df4fc9f2c714135cda13775/3')
+//
+//   .then(evento => {
+//     return evento.json()
+//   })
+//
+//   .then(data => {
+//      //Work with JSON data here
+//      // if(element.id = 000001){
+//     data.forEach(evento => {
+//
+//
+//     const appp = document.getElementById('eventoPrincipal');
+//
+//
+//     const mainContainer = document.createElement('div');
+//     mainContainer.setAttribute('class','encabezadoMobile');
+//     appp.appendChild(mainContainer);
+//
+//     const banner = document.createElement('div');
+//     banner.setAttribute('class','todosMobileMain');
+//     mainContainer.appendChild(banner);
+//
+//
+//     const imgBanner = document.createElement('img');
+//     imgBanner.src = evento.img_banner;
+//     imgBanner.setAttribute('class', 'fit');
+//     banner.appendChild(imgBanner);
+//
+//     const containerInfo = document.createElement('div');
+//     containerInfo.setAttribute('class', 'row');
+//     mainContainer.appendChild(containerInfo);
+//
+//     const containerTitulo = document.createElement('div');
+//     containerTitulo.setAttribute('class','col-12');
+//     containerInfo.appendChild(containerTitulo);
+//
+//     const textoTitulo = document.createElement('h2');
+//     textoTitulo.textContent = evento.Titulo;
+//     containerTitulo.appendChild(textoTitulo);
+//
+//     const textoDescripcion = document.createElement('p');
+//     textoDescripcion.textContent = evento.descripcion;
+//     containerTitulo.appendChild(textoDescripcion);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// })
+// })
+//
+//   .catch(err => {
+//     console.log('and I oop. '+err);
+//
+//   })

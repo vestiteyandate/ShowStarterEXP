@@ -31,12 +31,11 @@ body{
   display: block;
   max-width: 1200px;
   margin: auto;
-  background-color: #DCEDFF;
-  /* background:linear-gradient(0deg, rgba(83,140,170,1) 0%, rgba(81,151,177,1) 32%, rgba(86,176,162,1) 60%, rgba(237,224,91,1) 100%); */
+  background:linear-gradient(0deg, rgba(83,140,170,1) 0%, rgba(81,151,177,1) 32%, rgba(86,176,162,1) 60%, rgba(237,224,91,1) 100%);
 }
 
 header{
-  height: 100vh;
+  height: 85vh;
   background-image: url("../img/SHO-static.png");
   background-position: center center;
     background-repeat: no-repeat;
@@ -52,6 +51,7 @@ header{
 
 .fit{
   width: 100%;
+  height: 100%;
 }
 
 .dieciseiesNueve{
@@ -68,10 +68,6 @@ header{
 }
 
 .footerDesktop{
-  display: none;
-}
-
-.headerDesktop{
   display: none;
 }
 
@@ -207,6 +203,10 @@ section.compartir li{
    background-color: #f2f2f2;
  }
 
+.modal-content{
+  color: #5197b1;
+ }
+
  /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
@@ -225,7 +225,7 @@ section.compartir li{
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 2%;
-  background-color: #56b0a2;
+  background-color: #ffffff;
   float: left;
   display: block;
 }
@@ -236,7 +236,6 @@ section.compartir li{
   padding-top: 60px;
   padding-bottom: 20px;
   display: block;
-  margin: 0;
 }
 
 .footerMobile{
@@ -248,7 +247,7 @@ section.compartir li{
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 2%;
-  background-color: #5197b1;
+  background-color: #f2f2f2;
   float: left;
 }
 
@@ -263,8 +262,6 @@ section.compartir li{
 }
 
 #logoHome{
- width: 100%;
- height:95vh;
  margin-top: 5vh;
  vertical-align: middle;
  color: white;
@@ -272,8 +269,8 @@ section.compartir li{
 }
 
 .queEsDesktop{
-  color: white;
-  background-color: #5197b1;
+  color: grey;
+  background-color: #f2f2f2;
   padding-top: 2%;
   padding-left: 5%;
   padding-right: 5%;
@@ -287,9 +284,21 @@ section.compartir li{
   padding-top: 3%;
   padding-bottom: 3%;
 }
+.logo{
+  margin-top: 25vh;
+  width: 33vh;
+}
 
-.headerDesktop{
-  display: block;
+.votos{
+  width: 40px;
+  background-color: #f2f2f2;
+  font-weight: bold;
+  border: none;
+}
+
+.botonVoto{
+  border: 1px solid grey;
+  background-color: #f2f2f2;
 }
 
 }

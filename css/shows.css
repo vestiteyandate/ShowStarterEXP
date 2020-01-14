@@ -18,13 +18,11 @@
     justify-content: center;
   }
 
-.encabezadoMobile{
-position: -webkit-sticky;
+/* .encabezadoMobile{
 position: sticky;
-top: 0;
 z-index: 9;
 overflow: hidden;
-}
+} */
 
 .scrollEventos{
   padding-left: 2%;
@@ -76,6 +74,7 @@ overflow: hidden;
      border: 1px #5197b1 solid;
 }
 
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
@@ -89,16 +88,11 @@ overflow: hidden;
     display: none;
   }
 
-
-
  }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1100px) {
 
-  .headerDesktop{
-    display:block;
-  }
 
 
 }
