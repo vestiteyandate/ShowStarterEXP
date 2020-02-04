@@ -11,7 +11,26 @@
   </head>
   <body>
 
+<!-- DESKTOP
+********************************************************** -->
+<!-- NAV
+========================================================== -->
 
+    <nav class="navbar sticky-top navbar-dark" id="navbar">
+      <div class="dropdown">
+          <img src="img/logo-nav.png" style="height:3vh; padding-left: 4%;"type="button" id="dropdownMenuButton" data-toggle="dropdown">
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Ingresar</a>
+          <a class="dropdown-item" href="#">Todos los shows</a>
+          <a class="dropdown-item" href="#">FAQs</a>
+        </div>
+      </div>
+
+      <a class="navbar-brand" href="index.html"></a>
+    </nav>
+<!-- PRINCIPAL
+========================================================== -->
     <header>
       <div id="logoHome">
            <img src="img/logo-home.png" class='logo'>
@@ -19,7 +38,7 @@
       </div>
     </header>
 
-    <!-- QUE ES SS DESKTOP
+<!-- QUE ES
 ========================================================== -->
 
     <section class="queEsDesktop">
@@ -55,11 +74,12 @@
         <div class="col-12 justify-content-center">
           <h3>¿Ya sabés que show vas a pedir?</h3><br>
             <div class="col-8 offset-2 justify-content-center">
-              <!-- MODAL PEDI TU SHOWS
-              ========================================================== -->
-              <button type="button" class="btn btn-outline-dark btn-block" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">PEDÍ TU SHOW</button>
 
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <!-- MODAL PEDI TU SHOWS -->
+
+              <button type="button" class="btn btn-outline-dark btn-block" data-toggle="modal" data-target="#pedidoShow" data-whatever="@getbootstrap">PEDÍ TU SHOW</button>
+
+              <div class="modal fade" id="pedidoShow" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -92,6 +112,175 @@
   </div>
 
     </section>
+
+<!-- EVENTOS DESKTOP
+========================================================== -->
+
+
+        <div class="eventosDesktop">
+              <h4>SHOWS IMPULSADOS</h4>
+              <br>
+              <div id="carouselExampleIndicators" class="carousel slide ancho" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/reales/pasado/pasado-verde-banner-02.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/reales/hormiga/banner.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/reales/connie/banner.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <br>
+    <div id="eventosHome">
+
+    </div>
+    </div>
+
+<!-- MAS PEDIDOS
+========================================================== -->
+
+          <section class="pedidosDesktop">
+            <div>
+              <h3>LOS MÁS PEDIDOS</h3>
+              <p>Estos son los eventos más populares, sumá tu voto o pedí lo que vos quieras</p>
+            </div>
+
+            <!-- UN EVENTO  -->
+
+            <div class="row bloqueEventos">
+              <div class="col-3">
+                <img src="img/reales/maspedidos/catriel.jpg" class="imgPedidos "alt="...">
+              <div>
+                <br>
+                  <h3>CA7TRIEL</h3>
+                  <button type="button" class="btn btn-outline-dark btn-block" data-toggle="modal" data-target="#pedidoShow" data-whatever="@getbootstrap">PEDILO</button>
+                  <p><i class="fas fa-thumbs-up"></i>  2345 pedidos</p>
+
+              </div>
+            </div>
+
+            <!-- UN EVENTO  -->
+
+              <div class="col-3">
+                  <img src="img/reales/maspedidos/nicola-cruz.jpg" class="imgPedidos "alt="...">
+                <div>
+                  <br>
+                  <h3>NICOLA CRUZ</h3>
+                  <div class="qty">
+                    <div class="row">
+                      <div class="col-2">
+                        <span class="plus"><i class="fas fa-thumbs-up"></i></span>
+                      </div>
+                      <div class="col-2">
+                        <input type="number" class="count votos" name="qty" value="1">
+                      </div>
+                    <div class="col-8">
+                      <p>Fans pidiendo</p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <!-- UN EVENTO  -->
+
+              <div class="col-3">
+                <img src="img/reales/maspedidos/casciari.jpg" class="imgPedidos "alt="...">
+              <div>
+                <br>
+                  <h3>CASCIARI</h3>
+                  <div class="qty">
+                    <div class="row">
+                      <div class="col-2">
+                        <span class="plus"><i class="fas fa-thumbs-up"></i></span>
+                      </div>
+                      <div class="col-2">
+                        <input type="number" class="count votos" name="qty" value="1">
+                      </div>
+                    <div class="col-8">
+                      <p>Fans pidiendo</p>
+                    </div>
+                    </div>
+                  </div>
+              </div>
+    </div>
+            <!-- UN EVENTO  -->
+
+              <div class="col-3">
+                <div>
+                  <img src="img/reales/maspedidos/casciari.jpg" class="imgPedidos "alt="...">
+                </div>
+                <br>
+                  <h3>PEDI TU SHOW</h3>
+                  <p>Empecemos a sumar votos</p>
+            </div>
+              </div>
+
+          </section>
+
+<!-- FOOTER DESKTOP
+========================================================== -->
+
+          <footer class="footerDesktop">
+              <div class="row" style="padding-top:30px;">
+                <div class="col-lg-3 offset-1">
+                  <img class="img-fluid" src="img/logo-nav.png" alt="showstarter logo">
+
+                  <ul class="list-inline">
+                     <li class="list-inline-item"><i class="fab fa-twitter fa-lg"></i></li>
+                     <li class="list-inline-item"><i class="fab fa-instagram fa-lg"></i></li>
+                     <li class="list-inline-item"><i class="fab fa-facebook-square fa-lg"></i></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-5">
+                    <ul class='list-unstyled footerNav'>
+                      <li>HOME</li>
+                      <li>TODOS LOS SHOWS</li>
+                      <li>FAQS</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <i class="fas fa-chevron-up fa-3x"></i>
+                    <p>IR ARRIBA</p>
+                </div>
+
+
+              </div>
+
+
+          </footer>
+
+<!-- ***************************************************** -->
+
+<!-- MOBILE
+********************************************************** -->
+
+<!-- PRINCIPAL
+========================================================== -->
+      <div id="homeMobile">
+        <div class="">
+          <img src="img/logo-home.png" class='logo'>
+          <br> <h4>El show que quieras, donde quieras.</h4>
+        </div>
+
+      </div>
 
 <!-- EVENTOS MOBILE
 ========================================================== -->
@@ -243,44 +432,7 @@
           <button type="button" class="btn btn-outline-light btn-block">TODOS LOS SHOWS</button>
       </div>
 
-<!-- EVENTOS DESKTOP
-========================================================== -->
 
-
-    <div class="eventosDesktop">
-          <h4>SHOWS IMPULSADOS</h4>
-          <br>
-          <div id="carouselExampleIndicators" class="carousel slide ancho" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="img/reales/pasado/pasado-verde-banner-02.png" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/reales/hormiga/banner.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/reales/connie/banner.jpg" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
-<div id="eventosHome">
-
-</div>
-</div>
 
 
 
@@ -398,85 +550,6 @@
 
       </section>
 
-<!-- MAS PEDIDOS DESKTOP
-========================================================== -->
-
-      <section class="pedidosDesktop">
-        <div>
-          <h3>LOS MÁS PEDIDOS</h3>
-          <p>Estos son los eventos más populares, sumá tu voto o pedí lo que vos quieras</p>
-        </div>
-
-        <!-- UN EVENTO  -->
-
-        <div class="row bloqueEventos">
-          <div class="col-3">
-            <img src="img/reales/maspedidos/catriel.jpg" class="imgPedidos "alt="...">
-          <div>
-            <br>
-              <h3>CA7TRIEL</h3>
-              <p><i class="fas fa-thumbs-up"></i>  2345 pedidos</p>
-          </div>
-        </div>
-
-        <!-- UN EVENTO  -->
-
-          <div class="col-3">
-              <img src="img/reales/maspedidos/nicola-cruz.jpg" class="imgPedidos "alt="...">
-            <div>
-              <br>
-              <h3>NICOLA CRUZ</h3>
-              <div class="qty">
-                <div class="row">
-                  <div class="col-2">
-                    <span class="plus"><i class="fas fa-thumbs-up"></i></span>
-                  </div>
-                  <div class="col-2">
-                    <input type="number" class="count votos" name="qty" value="1">
-                  </div>
-                <div class="col-8">
-                  <p>Fans pidiendo</p>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        <!-- UN EVENTO  -->
-
-          <div class="col-3">
-            <img src="img/reales/maspedidos/casciari.jpg" class="imgPedidos "alt="...">
-          <div>
-            <br>
-              <h3>CASCIARI</h3>
-              <div class="qty">
-                <div class="row">
-                  <div class="col-2">
-                    <span class="plus"><i class="fas fa-thumbs-up"></i></span>
-                  </div>
-                  <div class="col-2">
-                    <input type="number" class="count votos" name="qty" value="1">
-                  </div>
-                <div class="col-8">
-                  <p>Fans pidiendo</p>
-                </div>
-                </div>
-              </div>
-          </div>
-</div>
-        <!-- UN EVENTO  -->
-
-          <div class="col-3">
-            <div>
-              <img src="img/reales/maspedidos/casciari.jpg" class="imgPedidos "alt="...">
-            </div>
-            <br>
-              <h3>PEDI TU SHOW</h3>
-              <p>Empecemos a sumar votos</p>
-        </div>
-          </div>
-
-      </section>
 
 <!-- FOOTER MOBILE
 ========================================================== -->
@@ -502,38 +575,7 @@
       </div>
     </div>
 
-<!-- FOOTER DESKTOP
-========================================================== -->
 
-<footer class="footerDesktop">
-    <div class="row" style="padding-top:30px;">
-      <div class="col-lg-3 offset-1">
-        <img class="img-fluid" src="img/logo-nav.png" alt="showstarter logo">
-
-        <ul class="list-inline">
-           <li class="list-inline-item"><i class="fab fa-twitter fa-lg"></i></li>
-           <li class="list-inline-item"><i class="fab fa-instagram fa-lg"></i></li>
-           <li class="list-inline-item"><i class="fab fa-facebook-square fa-lg"></i></li>
-        </ul>
-      </div>
-
-      <div class="col-lg-5">
-          <ul class='list-unstyled footerNav'>
-            <li>HOME</li>
-            <li>TODOS LOS SHOWS</li>
-            <li>FAQS</li>
-          </ul>
-      </div>
-      <div class="col-lg-3">
-          <i class="fas fa-chevron-up fa-3x"></i>
-          <p>IR ARRIBA</p>
-      </div>
-
-
-    </div>
-
-
-</footer>
 
   <!-- SCRIPTS
   ========================================================== -->

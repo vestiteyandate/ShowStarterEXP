@@ -1,3 +1,11 @@
+// function scroll(){
+//   window.scrollBy(0, window.innerHeight);
+// }
+window.onload = console.log("esto está funcionando");
+window.scrollBy(0,2812);
+
+
+
 var info ;
 
 fetch('https://api.jsonbin.io/b/5df4fc9f2c714135cda13775/3')

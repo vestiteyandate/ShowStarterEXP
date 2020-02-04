@@ -35,14 +35,34 @@ body{
 }
 
 header{
-  height: 85vh;
+  display: none;
+}
+
+#navbar{
+  display: none;
+  height: 5vh;
+}
+
+#homeMobile{
+  height: 100vh;
   background-image: url("../img/SHO-static.png");
-  background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  color: white;
+  background-size: cover;
+}
+
+#logoHome{
+  display: none;
+}
+
+.logo{
+  margin-top: 25vh;
+  width: 23vh;
+}
+
+#login{
+  background:linear-gradient(0deg, rgba(83,140,170,1) 0%, rgba(81,151,177,1) 32%, rgba(86,176,162,1) 60%, rgba(237,224,91,1) 100%);
+  text-align: center;
+  width: 50vh;
 }
 
 .blanco{
@@ -186,14 +206,7 @@ section.compartir li{
     font-weight: bold;
  }
 
- #logoHome{
-  width: 100%;
-  height:100vh;
-  margin: auto;
-  vertical-align: middle;
-  color: white;
-  text-align: center;
- }
+
 
  .separador{
    border: 1px #5197b1 solid;
@@ -216,6 +229,41 @@ section.compartir li{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1100px) {
 
+#navbar{
+  display: block;
+  background-color: black;
+}
+
+#homeMobile{
+  display: none;
+}
+
+header{
+  height: 85vh;
+  background-image: url("../img/SHO-static.png");
+  background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: block;
+}
+
+#logoHome{
+ width: 100%;
+ height:100vh;
+ margin: auto;
+ vertical-align: middle;
+ color: white;
+ text-align: center;
+ display:block;
+}
+
+.logo{
+  margin-top: 25vh;
+  width: 33vh;
+}
 .eventosMobile{
   display: none;
 }
@@ -262,7 +310,6 @@ section.compartir li{
 }
 
 #logoHome{
- margin-top: 5vh;
  vertical-align: middle;
  color: white;
  text-align: center;
@@ -284,10 +331,6 @@ section.compartir li{
   padding-top: 3%;
   padding-bottom: 3%;
 }
-.logo{
-  margin-top: 25vh;
-  width: 33vh;
-}
 
 .votos{
   width: 40px;
@@ -300,5 +343,13 @@ section.compartir li{
   border: 1px solid grey;
   background-color: #f2f2f2;
 }
+
+.dropdown-menu{
+  background-color: black;
+}
+.dropdown-item{
+  color:white;
+}
+
 
 }
