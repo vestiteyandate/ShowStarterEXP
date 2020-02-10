@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100|Nunito+Sans:200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/alta-eventos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/387ec256fd.js" crossorigin="anonymous"></script>
+    <title>SUBÍ TU SHOW</title>
+  </head>
+  <body>
+
+<!-- DESKTOP
+********************************************************** -->
+<!-- NAV
+========================================================== -->
+
+        <nav class="navbar sticky-top navbar-dark" id="navbar">
+          <div class="dropdown">
+              <img src="img/logo-nav.png" style="height:3vh; padding-left: 4%;"type="button" id="dropdownMenuButton" data-toggle="dropdown">
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Ingresar</a>
+              <a class="dropdown-item" href="#">Todos los shows</a>
+              <a class="dropdown-item" href="#">FAQs</a>
+            </div>
+          </div>
+
+          <a class="navbar-brand" href="index.html"></a>
+        </nav>
+<!-- PRINCIPAL
+========================================================== -->
+
+<div class="formulario">
+
+
+
+
+<form>
+  <h4>SUBÍ TU EVENTO</h4>
+  <h3>Completá el siguiente formulario para dar de alta tu evento. Una vez enviado el forulario nuestro equipo va a revisar todos los campos y a nos pondremos en contacto cuando esté aprobado.<br>¿Tenés dudas? Podes contactarnos por correo a eventos@show-starter.com o vía whatsapp al 2612345678.</h3>
+  <br>
+  <br>
+  <h2>INFORMACIÓN PERSONAL</h2>
+
+
+  <div class="form-group">
+    <div class="row">
+    <div class="col-6">
+      <input type="text" class="form-control" placeholder="Nombre">
+    </div>
+    <div class="col-6">
+      <input type="text" class="form-control" placeholder="Apellido">
+    </div>
+    <div class="col-12">
+      <br>
+    <input type="email" class="form-control" id="emailProductor" placeholder="Email">
+      </div>
+      <div class="col-4">
+        <br>
+        <input type="text" class="form-control" placeholder="Teléfono">
+      </div>
+      <div class="col-1">
+        <br>
+        SOY UN
+      </div>
+      <div class="col-7">
+        <br>
+        <select class="form-control" id="queSoy" placeholder="¿Qué sos?">
+          <option>Productor</option>
+          <option>Artista</option>
+          <option>Banda</option>
+          <option>Conferencista</option>
+          <option>Otros</option>
+        </select>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+</div>
+  <h2>INFORMACIÓN DEL EVENTO</h2>
+      <div class="row">
+          <div class="col-12">
+          <input type="text" class="form-control" id="tituloEvento" placeholder="Títuo del evento">
+            </div>
+
+            <div class="col-12">
+              <br>
+              <textarea class="form-control" id="descripcionEvento" rows="3" placeholder="Descripción del evento"></textarea>
+            </div>
+            <div class="col-12">
+              <br>
+              <p>Tipo de evento:</p>
+            </div>
+            <div class="col-10">
+              <select class="form-control" id="tipoEvento" placeholder="Tipo de evento">
+                <option>Música</option>
+                <option>Teatro</option>
+                <option>Conferencia</option>
+                <option>Workshop</option>
+                <option>Otros</option>
+              </select>
+            </div>
+            <div class="col-6"><br>
+              <input type="text" class="form-control" placeholder="Venue">
+            </div>
+            <div class="col-6"><br>
+              <input type="text" class="form-control" placeholder="Ciudad">
+            </div>
+            <div class="col-6"><br>
+              <input type="text" class="form-control" placeholder="Precio">
+            </div>
+            <div class="col-6"><br>
+              <input type="text" class="form-control" placeholder="Fecha">
+            </div>
+
+  </div>
+<br><br>
+  <h2>INFORMACIÓN ADICIONAL</h2>
+<div class="row">
+  <div class="col-12">
+    <br>
+  <input type="text" class="form-control" placeholder="Imagen perfil (1:1)">
+  </div>
+  <div class="col-12">
+    <br>
+  <input type="text" class="form-control" placeholder="Imagen banner (2:1)">
+  </div>
+  <div class="col-6">
+    <br>
+  <input type="text" class="form-control" placeholder="Porcentaje">
+  </div>
+  <div class="col-6 form-check">
+    <br>
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Destacado</label>
+  </div>
+
+</div>
+
+  </div>
+
+</form>
+
+</div>
+
+
+<!-- FOOTER DESKTOP
+========================================================== -->
+
+          <footer class="footerDesktop">
+              <div class="row" style="padding-top:30px;">
+                <div class="col-lg-3 offset-1">
+                  <img class="img-fluid" src="img/logo-nav.png" alt="showstarter logo">
+
+                  <ul class="list-inline">
+                     <li class="list-inline-item"><i class="fab fa-twitter fa-lg"></i></li>
+                     <li class="list-inline-item"><i class="fab fa-instagram fa-lg"></i></li>
+                     <li class="list-inline-item"><i class="fab fa-facebook-square fa-lg"></i></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-5">
+                    <ul class='list-unstyled footerNav'>
+                      <li><a href="index.html">HOME</a></li>
+                      <li>TODOS LOS SHOWS</li>
+                      <li>FAQS</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <i class="fas fa-chevron-up fa-3x"></i>
+                    <p>IR ARRIBA</p>
+                </div>
+
+
+              </div>
+
+
+          </footer>
+
+
+  <!-- SCRIPTS
+  ========================================================== -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

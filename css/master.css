@@ -38,6 +38,11 @@ header{
   display: none;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 #navbar{
   display: none;
   height: 5vh;
@@ -69,6 +74,15 @@ header{
   color: white;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.fondoGris{
+  background-color: #f2f2f2;
+}
+
 .fit{
   width: 100%;
   height: 100%;
@@ -81,10 +95,9 @@ header{
 
 .footerMobile{
   background-color: #f2f2f2;
-  height: 6vh;
-  border-top: : 1px grey solid;
-  border-bottom: : 1px grey solid;
+  height: 8vh;
   text-align: center;
+  align-items: center;
 }
 
 .footerDesktop{
@@ -134,7 +147,7 @@ display: none;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 2%;
-  background-color: #5197b1;
+  background-color: white;
   float: left;
 }
 
@@ -220,6 +233,27 @@ section.compartir li{
   color: #5197b1;
  }
 
+.divPasosMobile{
+  width: 70%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.pasosMobile{
+  display: block;
+  margin: auto;
+}
+
+.margen{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.logoHomeMobile{
+  display: block;
+  text-align: center;
+  margin: auto;
+
+}
  /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
@@ -284,6 +318,7 @@ header{
   padding-top: 60px;
   padding-bottom: 20px;
   display: block;
+  text-decoration: none;
 }
 
 .footerMobile{
@@ -313,6 +348,10 @@ header{
  vertical-align: middle;
  color: white;
  text-align: center;
+}
+
+#queEsMobile{
+  display: none;
 }
 
 .queEsDesktop{
