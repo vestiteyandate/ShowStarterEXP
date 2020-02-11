@@ -81,7 +81,6 @@ overflow: hidden;
 #eventoPrincipal{
   position: sticky;
   background-color: #f2f2f2;
-  margin-top: 5%;
 }
 
 #eventos {
@@ -133,7 +132,6 @@ overflow: hidden;
   box-shadow: 10px 10px 9px -4px rgba(0,0,0,0.28);
   box-sizing: border-box;
   display: block;
-  margin-top: 5vh;
 }
 
 }

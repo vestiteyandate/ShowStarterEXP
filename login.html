@@ -11,28 +11,54 @@
   </head>
   <body>
 
-<div class="modal fade text-center"id="login" >
+<div class="row" id="login" >
 
-<div class="modal-dialog">
-  <img src="img/iso-login.png" class="img-fluid" style="width: 20vw;" alt="">
-</div>
 <div class="modal-content">
 
-
+  <img src="img/iso-login.png" class="img-fluid" style="width: 10vw;" alt="">
   <h3 style="margin-top:5vh;">QUÉ BUENO VERTE DE NUEVO</h3>
-  <button type="button" class="btn btn-outline-light">LOGIN CON FACEBOOK</button>
-  <button type="button" class="btn btn-outline-light">LOGIN CON GOOGLE</button>
+
+  <div class="margen">
+  <a class="btn btn-outline-dark" data-toggle="collapse" href="#login" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">LOG IN</a>
+  <div class="" id="login">
+    <form style="padding-top: 8%;">
+  <div class="form-group">
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+</div>
+  </div>
   <br>
   <hr style="border: 1px white solid; width:80%;">
   <h3>¿PRIMERA VEZ?</h3>
-  <button type="button" class="btn btn-outline-light">SIGN IN CON FACEBOOK</button>
-  <button type="button" class="btn btn-outline-light">SIGN IN CON GOOGLE</button>
-<img src="img/imagen-login.png" class="img-fluid" style="width:80%; margin-top: 5vh;" alt="">
+  <div class="margen">
+  <a class="btn btn-outline-dark" data-toggle="collapse" href="#registro" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">REGISTRATE</a>
+  <div class="" id="registro">
+    <form style="padding-top: 8%;">
+  <div class="form-group">
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+    <small id="emailHelp" class="form-text text-muted">Todas tus notificaciones te las enviamos a este correo</small>
+  </div>
+  <div class="form-group">
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <input type="confirmaPassword" class="form-control" id="exampleInputPassword1" placeholder="Confirmar Password">
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+</div>
+  </div>
+
+<img src="img/imagen-login.png" class="img-fluid" style="width:80%; margin: auto; margin-top: 5vh;" alt="">
 </div>
 
 
 </div>
-
 
 
 

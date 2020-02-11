@@ -65,9 +65,9 @@ a{
 }
 
 #login{
-  background:linear-gradient(0deg, rgba(83,140,170,1) 0%, rgba(81,151,177,1) 32%, rgba(86,176,162,1) 60%, rgba(237,224,91,1) 100%);
   text-align: center;
   width: 50vh;
+  background-color: #f2f2f2;
 }
 
 .blanco{
@@ -112,7 +112,10 @@ a{
   display: none;
 }
 
-
+.modal-dialog,
+.modal-content {
+    background-color: #f2f2f2;
+}
 .queEsDesktop{
 display: none;
 }
@@ -253,6 +256,14 @@ section.compartir li{
   text-align: center;
   margin: auto;
 
+}
+
+.formulario{
+  background-color: #f2f2f2;
+  padding-left: 2%;
+  padding-top: 5%;
+  padding-right: 2%;
+  padding-bottom: 7%;
 }
  /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
